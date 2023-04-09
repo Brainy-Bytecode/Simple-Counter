@@ -30,3 +30,16 @@ function decrement1() {
     // data = data < 0 ? 0 : data;
     document.getElementById("counting").innerText = data;
 }
+
+function doPlus() {
+    data = data + Number(document.getElementById("input").value);
+    // data = data < 0 ? 0 : data;
+    document.getElementById("counting").innerText = data;
+}
+
+function doMinus() {
+    data = data - Number(document.getElementById("input").value);
+    // data = data < 0 ? 0 : data;
+    // console.log(data);
+    document.getElementById("counting").innerText = data;
+}
