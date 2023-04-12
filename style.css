@@ -58,3 +58,7 @@ h2 {
     font-size: medium;
     padding-left: 20px;
 }
+
+#input:focus {
+    outline: none;
+}
